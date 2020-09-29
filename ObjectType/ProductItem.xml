@@ -191,7 +191,7 @@
             <sch:name>ProductProviderId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>ProductProvider</sch:relatedObjectType>
+            <sch:relatedObjectType></sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -283,7 +283,7 @@
         <sch:BmfObjectField>
             <sch:name>RateMode</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>ProductTransMode</sch:enumName>
+            <sch:enumName></sch:enumName>
             <sch:length>128</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
@@ -297,7 +297,7 @@
         <sch:BmfObjectField>
             <sch:name>IssueMode</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>ProductTransMode</sch:enumName>
+            <sch:enumName></sch:enumName>
             <sch:length>128</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
@@ -311,7 +311,7 @@
         <sch:BmfObjectField>
             <sch:name>AddIssueMode</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>ProductTransMode</sch:enumName>
+            <sch:enumName></sch:enumName>
             <sch:length>128</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
@@ -325,7 +325,7 @@
         <sch:BmfObjectField>
             <sch:name>CancelMode</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>ProductTransMode</sch:enumName>
+            <sch:enumName></sch:enumName>
             <sch:length>128</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
@@ -339,7 +339,7 @@
         <sch:BmfObjectField>
             <sch:name>PartSurrenderMode</sch:name>
             <sch:dataType>Char</sch:dataType>
-            <sch:enumName>ProductTransMode</sch:enumName>
+            <sch:enumName></sch:enumName>
             <sch:length>128</sch:length>
             <sch:scale></sch:scale>
             <sch:autoIncrement>false</sch:autoIncrement>
