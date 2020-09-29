@@ -3,7 +3,7 @@
     <sch:name>ProductPart</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
-    <sch:parentTypeName>ProductOffering</sch:parentTypeName>
+    <sch:parentTypeName>ProductItem</sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
     <sch:primaryField></sch:primaryField>
@@ -15,7 +15,7 @@
             <sch:name>PartProductId</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>ProductOffering</sch:relatedObjectType>
+            <sch:relatedObjectType>ProductItem</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>1</sch:upperBound>
@@ -206,4 +206,5 @@
             <sch:description></sch:description>
         </sch:BmfRule>
     </sch:bmfRules>
+    <sch:bmfIndexRules/>
 </sch:ObjectType>

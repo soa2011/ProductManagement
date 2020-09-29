@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:Rule xmlns:sch="http://Baf.com/schemas" name="ProductOffering">
-    <sch:name>ProductOffering</sch:name>
-    <sch:objectTypeName>ProductOffering</sch:objectTypeName>
+<sch:Rule xmlns:sch="http://Baf.com/schemas" name="ProductItem">
+    <sch:name>ProductItem</sch:name>
+    <sch:objectTypeName>ProductItem</sch:objectTypeName>
     <sch:referenceName></sch:referenceName>
     <sch:fieldName></sch:fieldName>
     <sch:ruleType>OnDelete</sch:ruleType>
     <sch:ruleCode></sch:ruleCode>
     <sch:ruleLanguage></sch:ruleLanguage>
-    <sch:ruleBody>productModelAggrManager.updateProductOffering(context)</sch:ruleBody>
+    <sch:ruleBody>productModelAggrManager.updateProductItem(context)</sch:ruleBody>
     <sch:seqNumber>3</sch:seqNumber>
     <sch:description></sch:description>
 </sch:Rule>

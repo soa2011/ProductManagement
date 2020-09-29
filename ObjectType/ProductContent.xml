@@ -3,7 +3,7 @@
     <sch:name>ProductContent</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
-    <sch:parentTypeName>ProductOffering</sch:parentTypeName>
+    <sch:parentTypeName>ProductItem</sch:parentTypeName>
     <sch:superTypeName></sch:superTypeName>
     <sch:accessMode>TableDirect</sch:accessMode>
     <sch:primaryField></sch:primaryField>
@@ -175,4 +175,5 @@
             <sch:description></sch:description>
         </sch:BmfRule>
     </sch:bmfRules>
+    <sch:bmfIndexRules/>
 </sch:ObjectType>

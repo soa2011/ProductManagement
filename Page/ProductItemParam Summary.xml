@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="ProductOfferingParam Detail">
-    <sch:name>ProductOfferingParam Detail</sch:name>
+<sch:PageDefinition xmlns:sch="http://Baf.com/schemas" name="ProductItemParam Summary">
+    <sch:name>ProductItemParam Summary</sch:name>
     <sch:pageNumber></sch:pageNumber>
-    <sch:pageType>Detail</sch:pageType>
+    <sch:pageType>Summary</sch:pageType>
     <sch:pageCondition></sch:pageCondition>
     <sch:title></sch:title>
-    <sch:seqNumber>3710</sch:seqNumber>
-    <sch:tableName>ProductOfferingParam</sch:tableName>
+    <sch:seqNumber>3700</sch:seqNumber>
+    <sch:tableName>ProductItemParam</sch:tableName>
     <sch:quoteDisplay>true</sch:quoteDisplay>
     <sch:labelColWidth>200</sch:labelColWidth>
     <sch:valueColWidth>300</sch:valueColWidth>
@@ -19,13 +19,11 @@
     <sch:modifyResource></sch:modifyResource>
     <sch:displayResource2></sch:displayResource2>
     <sch:modifyResource2></sch:modifyResource2>
-    <sch:prevPage></sch:prevPage>
-    <sch:nextPage></sch:nextPage>
     <sch:path></sch:path>
     <sch:description></sch:description>
     <sch:clientSideController></sch:clientSideController>
     <sch:serverSideController></sch:serverSideController>
-    <sch:objectType isRef="true">ProductOfferingParam</sch:objectType>
+    <sch:objectType isRef="true">ProductItemParam</sch:objectType>
     <sch:fields>
         <sch:BmfPageField>
             <sch:name>ParamName</sch:name>
@@ -33,8 +31,7 @@
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
+            <sch:fieldType>Text</sch:fieldType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>ParamName</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -50,12 +47,12 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
+            <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
-            <sch:required>true</sch:required>
+            <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
@@ -83,8 +80,7 @@
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
+            <sch:fieldType>Text</sch:fieldType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>ParamType</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -100,10 +96,10 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
+            <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
@@ -133,8 +129,7 @@
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>Edit</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
+            <sch:fieldType>Text</sch:fieldType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>ParamValue</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -150,12 +145,12 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
+            <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
-            <sch:required>true</sch:required>
+            <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
             <sch:requiredCondition></sch:requiredCondition>
             <sch:readOnlyCondition></sch:readOnlyCondition>
@@ -183,8 +178,7 @@
             <sch:tabIndex>0</sch:tabIndex>
             <sch:tabPage></sch:tabPage>
             <sch:pageAreaName></sch:pageAreaName>
-            <sch:fieldType>TextArea</sch:fieldType>
-            <sch:widgetType2></sch:widgetType2>
+            <sch:fieldType>Text</sch:fieldType>
             <sch:refTargetType></sch:refTargetType>
             <sch:label>Description</sch:label>
             <sch:controllingParameters></sch:controllingParameters>
@@ -200,10 +194,10 @@
             <sch:width>0</sch:width>
             <sch:height>0</sch:height>
             <sch:rowSpan>1</sch:rowSpan>
-            <sch:colSpan>1</sch:colSpan>
-            <sch:sortable>false</sch:sortable>
+            <sch:colSpan>0</sch:colSpan>
+            <sch:sortable>true</sch:sortable>
             <sch:sortOrder></sch:sortOrder>
-            <sch:filterType></sch:filterType>
+            <sch:filterType>Equal</sch:filterType>
             <sch:display>true</sch:display>
             <sch:required>false</sch:required>
             <sch:displayCondition></sch:displayCondition>
@@ -230,5 +224,16 @@
     </sch:fields>
     <sch:variables/>
     <sch:treeNodes/>
-    <sch:buttons/>
+    <sch:buttons>
+        <sch:BmfPageButton>
+            <sch:seqNumber>2100</sch:seqNumber>
+            <sch:buttonName>EditProductParams</sch:buttonName>
+            <sch:displayCondition></sch:displayCondition>
+            <sch:displayResource></sch:displayResource>
+            <sch:description></sch:description>
+            <sch:showButton>true</sch:showButton>
+            <sch:eventHandler></sch:eventHandler>
+            <sch:bmfButton isRef="true">EditProductParams</sch:bmfButton>
+        </sch:BmfPageButton>
+    </sch:buttons>
 </sch:PageDefinition>

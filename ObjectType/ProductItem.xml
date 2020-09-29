@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="ProductOffering">
-    <sch:name>ProductOffering</sch:name>
+<sch:ObjectType xmlns:sch="http://Baf.com/schemas" name="ProductItem">
+    <sch:name>ProductItem</sch:name>
     <sch:tableType>System</sch:tableType>
     <sch:archeType>NORMAL</sch:archeType>
     <sch:parentTypeName>ProductManagement</sch:parentTypeName>
@@ -23,10 +23,10 @@
         </sch:BmfObjectRelationship>
         <sch:BmfObjectRelationship>
             <sch:type>REF_TO_MANY</sch:type>
-            <sch:name>ProductOfferingParam</sch:name>
+            <sch:name>ProductItemParam</sch:name>
             <sch:displayName></sch:displayName>
             <sch:description></sch:description>
-            <sch:relatedObjectType>ProductOfferingParam</sch:relatedObjectType>
+            <sch:relatedObjectType>ProductItemParam</sch:relatedObjectType>
             <sch:joinField></sch:joinField>
             <sch:lowerBound>0</sch:lowerBound>
             <sch:upperBound>-1</sch:upperBound>
@@ -874,28 +874,29 @@
     </sch:bmfFields>
     <sch:bmfRules>
         <sch:BmfRule>
-            <sch:name>ProductOffering</sch:name>
-            <sch:objectTypeName>ProductOffering</sch:objectTypeName>
+            <sch:name>ProductItem</sch:name>
+            <sch:objectTypeName>ProductItem</sch:objectTypeName>
             <sch:referenceName></sch:referenceName>
             <sch:fieldName></sch:fieldName>
             <sch:ruleType>OnChange</sch:ruleType>
             <sch:ruleCode></sch:ruleCode>
             <sch:ruleLanguage></sch:ruleLanguage>
-            <sch:ruleBody>productModelAggrManager.updateProductOffering(context)</sch:ruleBody>
+            <sch:ruleBody>productModelAggrManager.updateProductItem(context)</sch:ruleBody>
             <sch:seqNumber>2</sch:seqNumber>
             <sch:description></sch:description>
         </sch:BmfRule>
         <sch:BmfRule>
-            <sch:name>ProductOffering</sch:name>
-            <sch:objectTypeName>ProductOffering</sch:objectTypeName>
+            <sch:name>ProductItem</sch:name>
+            <sch:objectTypeName>ProductItem</sch:objectTypeName>
             <sch:referenceName></sch:referenceName>
             <sch:fieldName></sch:fieldName>
             <sch:ruleType>OnDelete</sch:ruleType>
             <sch:ruleCode></sch:ruleCode>
             <sch:ruleLanguage></sch:ruleLanguage>
-            <sch:ruleBody>productModelAggrManager.updateProductOffering(context)</sch:ruleBody>
+            <sch:ruleBody>productModelAggrManager.updateProductItem(context)</sch:ruleBody>
             <sch:seqNumber>3</sch:seqNumber>
             <sch:description></sch:description>
         </sch:BmfRule>
     </sch:bmfRules>
+    <sch:bmfIndexRules/>
 </sch:ObjectType>
